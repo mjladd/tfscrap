@@ -13,5 +13,5 @@ variable "ports-external" {
 variable "image-name" {
     type = string
     description = "Name of docker image to use"
-    default = "docker_image.nginx.latest"
+    default = "nginx:latest"
 }
